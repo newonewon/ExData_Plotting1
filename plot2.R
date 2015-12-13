@@ -1,4 +1,4 @@
-setwd("C:/Users/paresh.puri/ExData_Plotting1")
+
 powerconsumptionFile <- "./data/household_power_consumption.txt"
 ## read the file into a table
 powerconsumptionTable <- read.table(powerconsumptionFile, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
